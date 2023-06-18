@@ -126,13 +126,13 @@ vector.size();
 vector.front();
 
 //  9)            
-//  Noun:        cat
-//  action 1:    the cat sleeps
-cat.sleep();
-//  action 2:    the cat eats
-cat.eat();
-//  action 3:    the cat purrs
-cat.purr();
+//  Noun:        voteCounter
+//  action 1:    the voteCounter accepts votes
+voteCounter.acceptVotes();
+//  action 2:    the voteCounter tallies votes
+voteCounter.tallyVotes();
+//  action 3:    the voteCounter declares winner
+voteCounter.declareWinner();
 
 //  10)
 //  Noun:        therapist
@@ -143,18 +143,18 @@ therapist.advise();
 //  action 3:    the therpist charges you out your ass
 therapist.charge();
 
-
-
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -162,8 +162,7 @@ therapist.charge();
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
