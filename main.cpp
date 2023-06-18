@@ -52,84 +52,96 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
+//  Noun:        CPU
+//  action 1:    the CPU executes an instruction
+CPU.execute();
+//  action 2:    the CPU resets its state
+CPU.reset();
+//  action 3:    the CPU reads from memory
+CPU.read();
 
-//  action 2:
-
-//  action 3:
 
 //  2)
-//  Noun:
-//  action 1:
+//  Noun:        pencil
+//  action 1:    the pencil draws
+pencil.draw();
+//  action 2:    the pencil erases
+pencil.erase();
+//  action 3:    the pencil does nothing else
+pencil.doNothing();
 
-//  action 2:
 
-//  action 3:
-
-//  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  3)            
+//  Noun:        calculator
+//  action 1:    the calculator adds
+calculator.add();
+//  action 2:    the calculator subtracts
+calculator.subtract();
+//  action 3:    the calculator multiplies
+calculator.multiply();
 
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:        dog
+//  action 1:    the dog barks
+dog.bark();
+//  action 2:    the dog wags its tail
+dog.wag();
+//  action 3:    the dog smells things
+dog.smell();
 
 //  5)
-//  Noun:
-//  action 1:
+//  Noun:        rome
+//  action 1:    rome comes
+rome.come();
+//  action 2:    rome sees
+rome.see();
+//  action 3:    rome conqueres
+rome.conquer();
 
-//  action 2:
-
-//  action 3:
-
-//  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  6)            
+//  Noun:        mouse
+//  action 1:    the mouse right clicks
+mouse.rightClick();
+//  action 2:    the mouse left clicks
+mouse.leftClick();    
+//  action 3:    the mouse scrolls
+mouse.scroll();
 
 //  7)
-//  Noun:
-//  action 1:
+//  Noun:        soldier
+//  action 1:    the soldier readies
+soldier.ready();
+//  action 2:    the soldier aimes
+soldier.aim();
+//  action 3:    the soldier fires
+soldier.fire();
 
-//  action 2:
+//  8)            
+//  Noun:        vector
+//  action 1:    appends element to back
+vector.push_back();
+//  action 2:    returns its size
+vector.size();
+//  action 3:    returns first element
+vector.front();
 
-//  action 3:
-
-//  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-//  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  9)            
+//  Noun:        cat
+//  action 1:    the cat sleeps
+cat.sleep();
+//  action 2:    the cat eats
+cat.eat();
+//  action 3:    the cat purrs
+cat.purr();
 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:        therapist
+//  action 1:    the therapist listens
+therapist.listen();
+//  action 2:    the therapist advises
+therapist.advise();
+//  action 3:    the therpist charges you out your ass
+therapist.charge();
 
 
 
